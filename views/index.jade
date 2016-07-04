@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1  Jaybot7 File Metadata Microservice
+  p1 Submit a file to view its filesize.
+  <BR><BR>
+  <form action="/get-file-size" enctype="multipart/form-data" method="post">
+  <input id="the-file" name="fileR" type="file">
+  <input type="submit" value="Upload" />
+</form>
